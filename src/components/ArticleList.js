@@ -4,9 +4,9 @@ function ArticleList({ articles }) {
     return (
       <main>
         {articles.map((article) => (
-          <Article key={article.id} {...article} />
+          <article key={article.id} {...article} />
         ))}
       </main>
     );
   }
-  export {ArticleList};
+  export default ArticleList;

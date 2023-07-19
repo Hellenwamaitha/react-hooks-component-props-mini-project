@@ -23,4 +23,4 @@ function Article({ title, date, preview }) {
     </article>
   );
 }
-export {Article};
+export default Article;

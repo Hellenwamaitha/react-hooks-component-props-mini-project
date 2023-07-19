@@ -7,4 +7,4 @@ function Header({ blogName }) {
     </header>
   );
 }
-export {Header};
+export default Header;

@@ -12,4 +12,4 @@ function About({ blogLogo, aboutText }) {
       </aside>
     );
   }
-  export {About};
+  export default About;
